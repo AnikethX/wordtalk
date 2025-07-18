@@ -1,0 +1,66 @@
+HOW TO DOWNLOAD AND RUN THE WORDTALK PROJECT
+==============================================
+
+OPTION 1: Download Individual Files
+-----------------------------------
+1. Right-click on each file in the file explorer (left panel)
+2. Select "Download" for each file
+3. Create a new folder on your computer called "wordtalk-app"
+4. Place all downloaded files in this folder
+
+OPTION 2: Copy Files Manually
+-----------------------------
+1. Create a new folder called "wordtalk-app" on your computer
+2. For each file shown in the left panel:
+   - Click on the file to open it
+   - Select all content (Ctrl+A)
+   - Copy the content (Ctrl+C)
+   - Create a new file with the same name in your folder
+   - Paste the content (Ctrl+V)
+   - Save the file
+
+FILES TO DOWNLOAD:
+-----------------
+✓ app.py (main application)
+✓ config.py (styling and configuration)
+✓ language.py (multi-language support)
+✓ auth.py (authentication)
+✓ main_app.py (main interface)
+✓ word_explanation.py (word explanation page)
+✓ leaderboard.py (leaderboard and stats)
+✓ scoring.py (AI scoring system)
+✓ words.py (Telugu word collections)
+✓ gamification.py (game mechanics)
+✓ admin.py (admin panel)
+✓ requirements.txt (dependencies)
+✓ README.md (documentation)
+
+INSTALLATION STEPS:
+------------------
+1. Install Python 3.8 or higher
+2. Open terminal/command prompt
+3. Navigate to your wordtalk-app folder:
+   cd path/to/wordtalk-app
+
+4. Install dependencies:
+   pip install -r requirements.txt
+
+5. Run the application:
+   streamlit run app.py
+
+6. Open your browser to the URL shown (usually http://localhost:8501)
+
+TROUBLESHOOTING:
+---------------
+- If you get import errors, make sure all files are in the same folder
+- If streamlit is not found, install it: pip install streamlit
+- For model download issues, ensure you have internet connection
+- Check that all file names match exactly (case-sensitive)
+
+ADMIN ACCESS:
+------------
+- Use password "admin@123" in the admin panel
+- Download collected data as CSV
+- Reset data if needed
+
+ENJOY COLLECTING TELUGU SLANG DATA! 🎮📚
